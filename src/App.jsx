@@ -5,11 +5,10 @@ function App() {
     const [counter, setCounter] = useState(0)
 
 
-
     return (
         <>
             <div className={"w-full h-screen bg-[#142d4c]"}>
-                <Counter counter={counter} setCounter={setCounter}/>
+                <Counter count={counter} setCount={setCounter}/>
             </div>
         </>
     )
